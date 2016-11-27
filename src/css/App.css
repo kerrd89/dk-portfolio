@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  position:relative;
 }
 
 .App-logo {
@@ -7,11 +9,13 @@
   height: 80px;
 }
 
-.App-header {
+.App-sidebar {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 100%;
+  width: 33%;
+  padding: 3%;
   color: white;
+  position: fixed;
 }
 
 .App-intro {

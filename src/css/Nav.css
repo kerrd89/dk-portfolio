@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+}
+
+.Nav li {
+  margin: auto;
+}
+
+.Nav a{
+  color: white;
+  font-size: 4vw;
+}
+
+.active li {
+  color: blue;
+}
