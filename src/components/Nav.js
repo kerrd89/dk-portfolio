@@ -9,9 +9,9 @@ class Nav extends Component {
     return (
       <nav className="Nav">
         <ul>
-          <Link to="/"><li>Home</li></Link>
-          <Link to="/projects" activeClassName="active"><li>Projects</li></Link>
-          <Link to="/contact" activeClassName="active"><li>Contact</li></Link>
+          <Link to="/"><li>HOME</li></Link>
+          <Link to="/projects" activeClassName="active"><li>PROJECTS</li></Link>
+          <Link to="/contact" activeClassName="active"><li>CONTACT</li></Link>
         </ul>
       </nav>
 

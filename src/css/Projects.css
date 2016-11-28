@@ -1,6 +1,35 @@
 .Projects {
-  width: 100%;
+  width: 66%;
   height: 100%;
-  margin-left: 39%;
-  border: 5px solid black;
+  margin-left: 34%;
+  padding: 0px;
+  background-color: #222;
+}
+
+.Projects ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.Projects li p {
+  background: rgba(97, 218, 251, .75);
+  padding: 20px 0px 0px 20px;
+  font-size: 2vw;
+  height: 60px;
+  margin: 0px;
+  /*font-family: 'Roboto Condensed', sans-serif;*/
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+.Projects li span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  font-size: 1vw;
+  margin: 0px;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 3vh;
 }
