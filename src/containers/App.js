@@ -12,9 +12,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-sidebar">
-          <h2>DAVID KERR</h2>
+          <h2>david kerr</h2>
           <img src={sun} className="App-logo" alt="logo" />
-          <img src={mountain} className="App-logo-mountain" alt="logo-mountain" />
+          <img src={mountain} className="App-logo-mountain" alt="logo-mountain" width={window.width} height={window.height}/>
           <Nav />
         </div>
         {this.props.children}
