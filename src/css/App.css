@@ -36,6 +36,11 @@
   position: fixed;
 }
 
+.hidden {
+  width: 0%;
+  display: none;
+}
+
 .App-intro {
   font-size: large;
 }
