@@ -8,8 +8,9 @@ import Projects from './containers/Projects';
 const Routes = (props) => (
   <Router {...props}>
     <Route path="/" component={App}>
-      <IndexRoute path="/" component={Home} />
+      <IndexRoute component={Home} />
       <Route path="/projects" component={Projects}/>
+      <Route path="/home" component={Home}/>
       <Route path="/contact" component={Contact}/>
     </Route>
   </Router>

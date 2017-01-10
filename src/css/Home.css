@@ -1,8 +1,48 @@
 .Home {
   width: 66%;
-  height: 100vh;
+  height: 100%;
   margin-left: 34%;
-  padding: 0px;
+  padding: 30px;
   background-color: #222;
-  border-left: 20px solid rgba(97, 218, 251, .9);
+}
+
+.Home ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.Home li p {
+  border: 10px solid rgba(97, 218, 251, .50);
+  margin: 30px;
+  text-transform: uppercase;
+  color: white;
+  width: 80%;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 20px;
+  font-size: 3vw;
+  font-weight: bold;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+
+.Home li span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 0px;
+  font-size: 1.5vw;
+  width: 80%;
+  margin: 0px;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 1.8vw;
+}
+
+.Home img {
+  margin: 20px;
+
+}
+
+.Home svg {
+  margin: 10px 10px 40px 10px;
 }

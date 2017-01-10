@@ -1,6 +1,7 @@
 import '../css/reset.css';
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+
 import '../css/Nav.css';
 
 class Nav extends Component {
