@@ -46,3 +46,21 @@
 .Projects svg {
   margin: 10px 10px 40px 10px;
 }
+
+@media screen and (max-width: 720px) {
+  .Projects {
+    width: 94%;
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .Projects li p {
+    font-size: 6vw;
+    width: 80%;
+  }
+
+  .Projects li span {
+    font-size: 4vw;
+    line-height: 4.5vw;
+    width: 100%;
+  }
+}
