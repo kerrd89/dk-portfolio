@@ -1,5 +1,26 @@
 .Contact {
-  width: 100%;
-  height: 100%;
-  margin-left: 33%;
+  width: 66%;
+  height: 100vh;
+  margin-left: 34%;
+  padding: 30px;
+  background-color: #222;
+}
+
+.Contact li{
+  margin-top: 20px;
+  font-size: 30px;
+  text-indent: 10px;
+}
+
+.Contact li:hover {
+  border-left: 10px solid rgb(244, 224, 77);
+  border-radius: 3px;
+}
+
+.Contact li a{
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-indent: 10px;
+  margin-left: 20px;
+  color: white;
 }
