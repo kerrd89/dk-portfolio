@@ -9,16 +9,18 @@ import TwitterApp from "../assets/twitterUserAnalytics.gif";
 import ElectronApp from "../assets/electron-notes-app.gif";
 import TrawnApp from "../assets/trawn.gif";
 import TuringFridays from "../assets/turing-fridays.gif";
+import ReactNative from "../assets/react-native.gif";
 
 const Projects = () => {
   return (
     <div className="Projects">
       <ul>
         <li><p>Application to manage student led sessions for Turing</p>
-          <img src={TuringFridays} alt="animated gif of notes application" width="80%"/>
+          <img src={TuringFridays} alt="animated gif of turing fridays application" width="80%"/>
           <span>Using firebase, application allows admins to approve, edit, assign classrooms, and monitor attendence for Friday spike sessions.</span>
           <GithubSvg link="https://github.com/Jeff-Duke/turing-fridays" />
           <LinkSvg link="https://turing-fridays.firebaseapp.com/" />
+          <MediumSvg link="https://hackernoon.com/prototyping-with-firebase-5d987c2169ac#.ld7rn9fif" />
         </li>
         <li><p>Notes App Using Electron, Vue, and sqlite3</p>
           <img src={ElectronApp} alt="animated gif of notes application" width="80%"/>
@@ -34,6 +36,12 @@ const Projects = () => {
           <GithubSvg link="https://github.com/kerrd89/twitter-user-analytics" />
           <LinkSvg link="https://shrouded-peak-32259.herokuapp.com/#/" />
 
+        </li>
+        <li><p>React Native project using the NBA API to chart statistics</p>
+          <img src={ReactNative} alt="animated gif of Hoop Dreams application" id="reactNative"/>
+          <span>4 day project to learn React Native using OAuth and an express server</span>
+          <GithubSvg link="https://github.com/Jeff-Duke/HoopDreams" />
+          <MediumSvg link="https://medium.com/@dkerrious/questions-for-the-creators-of-react-native-702770c48e94#.kagidxubp" />
         </li>
         <li><p>recreated trawn app</p>
           <img src={TrawnApp} alt="animated gif of Trawn application" width="80%"/>

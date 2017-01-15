@@ -47,6 +47,12 @@
   margin: 10px 10px 40px 10px;
 }
 
+#reactNative {
+  margin: 20px;
+  width: 40%;
+  margin-left: 25%;
+}
+
 @media screen and (max-width: 720px) {
   .Projects {
     width: 94%;
@@ -64,5 +70,10 @@
     font-size: 4vw;
     line-height: 4.5vw;
     width: 100%;
+  }
+
+  #reactNative {
+    width: 60%;
+    margin-left: 18%;
   }
 }
