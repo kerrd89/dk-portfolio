@@ -39,7 +39,7 @@ const Projects = () => {
         </li>
         <li><p>React Native project using the NBA API to chart statistics</p>
           <img src={ReactNative} alt="animated gif of Hoop Dreams application" id="reactNative"/>
-          <span>4 day project to learn React Native using OAuth and an express server</span>
+          <span>4 day project to learn React Native.  Used OAuth for user authentication and an Express server to create API endpoints.</span>
           <GithubSvg link="https://github.com/Jeff-Duke/HoopDreams" />
           <MediumSvg link="https://medium.com/@dkerrious/questions-for-the-creators-of-react-native-702770c48e94#.kagidxubp" />
         </li>
